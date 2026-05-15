@@ -84,3 +84,27 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
   font-size: 1rem;
   box-sizing: border-box;
 }
+
+/* About section two-column layout */
+.about-columns {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.author-full-photo {
+  width: 220px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 640px) {
+  .about-columns {
+    flex-direction: column;
+  }
+  .author-full-photo {
+    width: 100%;
+  }
+}
