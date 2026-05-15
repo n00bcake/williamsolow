@@ -3,35 +3,47 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="book-section">
+  <img src="{{ site.baseurl }}/public/images/book-banner.jpg" alt="The Self-Help Author's Toolkit banner" class="book-banner">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+  <div class="book-feature">
+    <img src="{{ site.baseurl }}/public/images/book-cover.jpg" alt="The Self-Help Author's Toolkit cover" class="book-cover">
+    <div class="book-info">
+      <h2 class="book-title">The Self-Help Author's Toolkit</h2>
+      <p class="book-subtitle">A Step-by-Step Guide to Structuring Your Book, Finding Your Voice, and Connecting with Readers</p>
+      <p class="book-byline">By Hilary T. Smith &amp; William Solow</p>
+      <a href="https://hierophantpublishing.com/books/the-self-help-authors-toolkit/" class="btn-presale" target="_blank">Pre-order Now</a>
+    </div>
   </div>
-  {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<div class="home-section" id="about">
+  <h2>About William</h2>
+  <p>{{ site.description }}</p>
 </div>
+
+<div class="home-section" id="newsletter">
+  <h2>Stay in Touch</h2>
+  <p>Get updates on the book, release news, and resources for authors.</p>
+  <div class="newsletter-wrap">
+    <div id="mc_embed_signup">
+      <form action="https://smithandsolow.us12.list-manage.com/subscribe/post?u=a99669fa0316d2a43e64b4b59&amp;id=eb58f95305&amp;f_id=00fe61e9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address</label>
+          <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required value="">
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <input type="text" name="b_a99669fa0316d2a43e64b4b59_eb58f95305" tabindex="-1" value="">
+        </div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-presale">
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
