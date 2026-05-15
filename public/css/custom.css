@@ -112,20 +112,20 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
 /*site width*/
 @media (min-width: 48em) {
   .sidebar {
-    width: 16rem;
+    width: 16rem !important;
   }
   .content {
-    margin-left: 16rem;
+    margin-left: 16rem !important;
   }
 }
 
 @media (min-width: 64em) {
   .sidebar {
-    width: 18rem;
+    width: 18rem !important;
   }
   .content {
-    margin-left: 18rem;
-    max-width: 52rem;
+    margin-left: 18rem !important;
+    max-width: 52rem !important;
   }
 }
 
