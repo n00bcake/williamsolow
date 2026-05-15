@@ -1,0 +1,87 @@
+/* Fonts */
+body { font-family: 'Source Sans 3', sans-serif; }
+h1, h2, h3, .book-title { font-family: 'Lora', serif; }
+
+/* Sidebar */
+.sidebar { background-color: #2d2d2d; }
+.sidebar a { color: #ccc; }
+.sidebar a:hover { color: #fff; }
+.sidebar-about h1 a { color: #fff; font-size: 1.4rem; }
+.sidebar-footer { font-size: 0.75rem; color: #888; margin-top: 2rem; }
+
+/* Author photo */
+.author-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem;
+  border: 3px solid #555;
+}
+
+/* Book section */
+.book-banner {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.book-feature {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.book-cover {
+  width: 160px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.book-info { flex: 1; }
+.book-title { margin-top: 0; font-size: 1.6rem; }
+.book-subtitle { font-style: italic; color: #555; margin: 0.25rem 0 0.5rem; }
+.book-byline { color: #777; font-size: 0.95rem; margin-bottom: 1.5rem; }
+
+/* Pre-order button */
+.btn-presale {
+  display: inline-block;
+  background: #2d2d2d;
+  color: #fff !important;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn-presale:hover { background: #444; }
+
+/* Sections */
+.home-section {
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+.home-section h2 { font-size: 1.4rem; margin-bottom: 0.75rem; }
+
+/* Newsletter */
+.newsletter-wrap { max-width: 480px; }
+#mc_embed_signup .mc-field-group { margin-bottom: 0.75rem; }
+#mc_embed_signup label { display: block; margin-bottom: 0.25rem; font-weight: 600; }
+#mc_embed_signup input[type="email"] {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
