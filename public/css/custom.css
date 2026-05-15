@@ -99,9 +99,9 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
 }
 
 .author-full-photo {
-  flex: 0 0 40%;
-  width: 40%;
-  max-width: 340px;
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 500px;
   border-radius: 6px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
