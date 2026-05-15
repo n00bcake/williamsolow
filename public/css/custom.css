@@ -119,7 +119,7 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
     width: 16rem;
   }
   .content {
-    margin-left: 16rem;
+    margin-left: 18rem;
   }
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
     width: 18rem;
   }
   .content {
-    margin-left: 18rem;
+    margin-left: 22rem;
     max-width: 52rem;
   }
 }
