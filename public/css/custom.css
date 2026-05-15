@@ -94,12 +94,14 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
 }
 
 .about-columns p {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .author-full-photo {
-  flex: 1;
-  width: 100%;
+  flex: 0 0 40%;
+  width: 40%;
+  max-width: 340px;
   border-radius: 6px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
@@ -110,6 +112,7 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
   }
   .author-full-photo {
     width: 100%;
+    max-width: 100%;
   }
 }
 
