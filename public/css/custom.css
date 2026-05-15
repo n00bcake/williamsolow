@@ -108,3 +108,24 @@ h1, h2, h3, .book-title { font-family: 'Lora', serif; }
     width: 100%;
   }
 }
+
+/*site width*/
+@media (min-width: 48em) {
+  .sidebar {
+    width: 16rem;
+  }
+  .content {
+    margin-left: 16rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    width: 18rem;
+  }
+  .content {
+    margin-left: 18rem;
+    max-width: 52rem;
+  }
+}
+
