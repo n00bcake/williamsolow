@@ -9,8 +9,8 @@ permalink:        pretty
 title:            William Solow
 tagline:          'Author and Science Communicator'
 description:      'Author and Science Communicator'
-url:              https://n00bcake.github.io/williamsolow/
-baseurl:          /williamsolow/
+url:              https://williamsolow.com
+baseurl:          ''
 
 author:
   name:           'William Solow'
