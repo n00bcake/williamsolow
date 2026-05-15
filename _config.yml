@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -10,12 +10,12 @@ relative_permalinks: true
 title:            William Solow
 tagline:          'Author and science communicator'
 description:      'William Solow is a professional science communicator and the codirector of the nonprofit AMeaningofLife.org, where he guides the development of science-based self-help resources used by therapists, teachers, and coaches across the country and around the world. He loves helping authors translate complex psychology research into engaging, accurate, and accessible materials for the general public.'
-url:              https://n00bcake.github.io/williamsolow
+url:              https://n00bcake.github.io/
 baseurl:          /williamsolow
 
 author:
   name:           'William Solow'
-  url:            https:williamsolow.com
+  url:            https://williamsolow.com
 
 paginate:         5
 
